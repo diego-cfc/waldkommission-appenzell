@@ -1,0 +1,4 @@
+Waldkommission Appenzell – Webseite
+
+ZIP entpacken und index.html per Doppelklick im Browser öffnen.
+Wichtig: zuerst entpacken, nicht direkt aus dem ZIP heraus öffnen.
