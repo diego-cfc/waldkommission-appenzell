@@ -11,8 +11,8 @@
     <meta property="og:title" content="Waldkommission Appenzell" />
     <meta property="og:description" content="Gemeinschaftliche Überlebens-, Erkundungs- und Fortbeständigkeitsschulung – seit 23. Januar 2026." />
     <meta property="og:image" content="./images/logo-waldkommission.png" />
-    <script defer src="./assets/index-C6-6ASx7.js"></script>
-    <link rel="stylesheet" href="./assets/index-BzrHz_c3.css">
+    <script defer src="./assets/index-DruW59G8.js"></script>
+    <link rel="stylesheet" href="./assets/index-3WH_pEVh.css">
   </head>
   <body>
     <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
@@ -197,6 +197,10 @@
             <h2 id="members-title" class="section__title">Die Gründungsmitglieder</h2>
             <p class="section__intro">Die Zuständigkeiten gemäss Art. 4 der Statuten. Aufgaben können nach Absprache neu verteilt oder gemeinsam erledigt werden.</p>
           </div>
+          <figure class="team-photo reveal">
+            <img src="./images/mitglieder/team.jpg" alt="Die vier Gründungsmitglieder der Waldkommission Appenzell nebeneinander vor einer Wand" width="1600" height="1384" loading="lazy" />
+            <figcaption><span>Die Kommission</span>Von links: Diego Signer, Pirmin Frick, Ennio Mock, Lorin Koch</figcaption>
+          </figure>
           <div class="members__grid" data-render="members"></div>
         </div>
       </section>
@@ -260,8 +264,8 @@
             <p class="eyebrow">Galerie</p>
             <h2 id="gallery-title" class="section__title">Bilder der Kommission</h2>
           </div>
-          <div class="filters filters--dark reveal" role="group" aria-label="Galerie filtern" data-render="gallery-filters"></div>
-          <div class="gallery__grid" data-render="gallery"></div>
+          <p class="section__intro gallery__intro reveal">Die Bilder sind in Alben gegliedert. Ein Album öffnen, um alle Fotos zu sehen.</p>
+          <div class="albums" data-render="albums"></div>
         </div>
       </section>
 
@@ -308,6 +312,8 @@
           <div class="contact__card reveal" data-render="contact"></div>
         </div>
       </section>
+      <!-- ALBUM-UNTERSEITE (wird über #album/<id> geöffnet) -->
+      <section class="album-page section section--deep" data-render="album-page" aria-live="polite" hidden></section>
     </main>
 
     <footer class="site-footer">
