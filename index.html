@@ -11,8 +11,8 @@
     <meta property="og:title" content="Waldkommission Appenzell" />
     <meta property="og:description" content="Gemeinschaftliche Überlebens-, Erkundungs- und Fortbeständigkeitsschulung – seit 23. Januar 2026." />
     <meta property="og:image" content="./images/logo-waldkommission.png" />
-    <script defer src="./assets/index-Da2tiUOL.js"></script>
-    <link rel="stylesheet" href="./assets/index-DXmuVeaA.css">
+    <script defer src="./assets/index-E9c4EQKV.js"></script>
+    <link rel="stylesheet" href="./assets/index-BNhs1Y4Z.css">
   </head>
   <body>
     <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
@@ -183,8 +183,13 @@
           <ol class="timeline" data-render="timeline"></ol>
 
           <div class="reports">
-            <h3 class="reports__title reveal">Sitzungsberichte</h3>
+            <h3 class="reports__title reveal">Sitzungsberichte und Rapporte</h3>
             <div class="reports__grid" data-render="reports"></div>
+          </div>
+
+          <div class="dossiers">
+            <h3 class="reports__title reveal">Hintergründe</h3>
+            <div class="dossiers__grid" data-render="dossiers"></div>
           </div>
         </div>
       </section>
@@ -314,6 +319,8 @@
       </section>
       <!-- ALBUM-UNTERSEITE (wird über #album/<id> geöffnet) -->
       <section class="album-page section section--deep" data-render="album-page" aria-live="polite" hidden></section>
+      <!-- BERICHT-/GESCHICHTEN-UNTERSEITE (#seite/<id>) -->
+      <section class="album-page story-page section section--paper" data-render="story-page" aria-live="polite" hidden></section>
     </main>
 
     <footer class="site-footer">
@@ -348,6 +355,7 @@
       <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Vorheriges Bild">‹</button>
       <figure>
         <img alt="" />
+        <video controls playsinline preload="metadata" hidden></video>
         <figcaption></figcaption>
       </figure>
       <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Nächstes Bild">›</button>
