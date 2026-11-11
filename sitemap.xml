@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://diego-cfc.github.io/waldkommission-appenzell/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <image:image>
       <image:loc>https://diego-cfc.github.io/waldkommission-appenzell/images/logo-mark-hell.png</image:loc>
     </image:image>
@@ -290,6 +290,10 @@
     <image:image>
       <image:loc>https://diego-cfc.github.io/waldkommission-appenzell/images/minecraft/setup-fuer-die-minecraft-session.jpg</image:loc>
       <!-- Setup für die Minecraft-Session -->
+    </image:image>
+    <image:image>
+      <image:loc>https://diego-cfc.github.io/waldkommission-appenzell/videos/clubbing-im-papikomdom.jpg</image:loc>
+      <!-- Clubbing im Papikomdom -->
     </image:image>
     <image:image>
       <image:loc>https://diego-cfc.github.io/waldkommission-appenzell/images/wither/vor-dem-wither-kampf.jpg</image:loc>
